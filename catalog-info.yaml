@@ -1,0 +1,13 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ansible-job3
+  description: ansible-job3
+  annotations:
+    backstage.io/kubernetes-id: ansible-job3
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
